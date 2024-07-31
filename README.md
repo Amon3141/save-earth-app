@@ -2,7 +2,7 @@
 
 A simple AR-integrated iOS app for environmental conservation. A personal project from 2022.
 
-It was previously on App Store but is not available now as I'm not paying for the developer program anymore.
+It was previously on the App Store but is not available now as I'm not paying for the developer program anymore.
 
 <img src="https://github.com/user-attachments/assets/d0f10169-5662-42df-8801-fe4f04207645" alt="Image1" width="200"/>
 <img src="https://github.com/user-attachments/assets/10f9c2c0-3687-48fc-8ab7-c9319174a5a0" alt="Image3" width="200"/>
