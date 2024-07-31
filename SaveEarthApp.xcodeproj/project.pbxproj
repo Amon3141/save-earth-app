@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB1F4B82C5A4C8C00964B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1F4B72C5A4C8C00964B8A /* Assets.xcassets */; };
+		3FB1F4BB2C5A4C8C00964B8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1F4BA2C5A4C8C00964B8A /* Preview Assets.xcassets */; };
+		3FB1F4F42C5A4F4F00964B8A /* Tissue Paper.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1F4E32C5A4F4F00964B8A /* Tissue Paper.usdz */; };
+		3FB1F4F52C5A4F4F00964B8A /* Towel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1F4E42C5A4F4F00964B8A /* Towel.usdz */; };
+		3FB1F4F72C5A4F4F00964B8A /* ARContainerViewController+Coaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F4E62C5A4F4F00964B8A /* ARContainerViewController+Coaching.swift */; };
+		3FB1F4F82C5A4F4F00964B8A /* Plastic Bottle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1F4E72C5A4F4F00964B8A /* Plastic Bottle.usdz */; };
+		3FB1F4FA2C5A4F4F00964B8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F4E92C5A4F4F00964B8A /* ContentView.swift */; };
+		3FB1F4FB2C5A4F4F00964B8A /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F4EA2C5A4F4F00964B8A /* VirtualObject.swift */; };
+		3FB1F4FC2C5A4F4F00964B8A /* VirtualObject+Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F4EB2C5A4F4F00964B8A /* VirtualObject+Text.swift */; };
+		3FB1F4FD2C5A4F4F00964B8A /* EarthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F4EC2C5A4F4F00964B8A /* EarthView.swift */; };
+		3FB1F4FE2C5A4F4F00964B8A /* Computer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1F4ED2C5A4F4F00964B8A /* Computer.usdz */; };
+		3FB1F4FF2C5A4F4F00964B8A /* Book1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1F4EE2C5A4F4F00964B8A /* Book1.usdz */; };
+		3FB1F5002C5A4F4F00964B8A /* Tooth Brush.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1F4EF2C5A4F4F00964B8A /* Tooth Brush.usdz */; };
+		3FB1F5012C5A4F4F00964B8A /* ARContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F4F02C5A4F4F00964B8A /* ARContainerViewController.swift */; };
+		3FB1F5022C5A4F4F00964B8A /* SaveEarthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F4F12C5A4F4F00964B8A /* SaveEarthApp.swift */; };
+		3FB1F5032C5A4F4F00964B8A /* ARContainerViewController+Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F4F22C5A4F4F00964B8A /* ARContainerViewController+Objects.swift */; };
+		3FB1F5042C5A4F4F00964B8A /* EarthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1F4F32C5A4F4F00964B8A /* EarthNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FB1F4B02C5A4C8B00964B8A /* SaveEarthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveEarthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB1F4B72C5A4C8C00964B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FB1F4BA2C5A4C8C00964B8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FB1F4E32C5A4F4F00964B8A /* Tissue Paper.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Tissue Paper.usdz"; path = "../../SaveEarthApp!/SaveEarthApp!/Tissue Paper.usdz"; sourceTree = "<group>"; };
+		3FB1F4E42C5A4F4F00964B8A /* Towel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Towel.usdz; path = "../../SaveEarthApp!/SaveEarthApp!/Towel.usdz"; sourceTree = "<group>"; };
+		3FB1F4E62C5A4F4F00964B8A /* ARContainerViewController+Coaching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ARContainerViewController+Coaching.swift"; path = "../../SaveEarthApp!/SaveEarthApp!/ARContainerViewController+Coaching.swift"; sourceTree = "<group>"; };
+		3FB1F4E72C5A4F4F00964B8A /* Plastic Bottle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Plastic Bottle.usdz"; path = "../../SaveEarthApp!/SaveEarthApp!/Plastic Bottle.usdz"; sourceTree = "<group>"; };
+		3FB1F4E92C5A4F4F00964B8A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../SaveEarthApp!/SaveEarthApp!/ContentView.swift"; sourceTree = "<group>"; };
+		3FB1F4EA2C5A4F4F00964B8A /* VirtualObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VirtualObject.swift; path = "../../SaveEarthApp!/SaveEarthApp!/VirtualObject.swift"; sourceTree = "<group>"; };
+		3FB1F4EB2C5A4F4F00964B8A /* VirtualObject+Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "VirtualObject+Text.swift"; path = "../../SaveEarthApp!/SaveEarthApp!/VirtualObject+Text.swift"; sourceTree = "<group>"; };
+		3FB1F4EC2C5A4F4F00964B8A /* EarthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EarthView.swift; path = "../../SaveEarthApp!/SaveEarthApp!/EarthView.swift"; sourceTree = "<group>"; };
+		3FB1F4ED2C5A4F4F00964B8A /* Computer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Computer.usdz; path = "../../SaveEarthApp!/SaveEarthApp!/Computer.usdz"; sourceTree = "<group>"; };
+		3FB1F4EE2C5A4F4F00964B8A /* Book1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Book1.usdz; path = "../../SaveEarthApp!/SaveEarthApp!/Book1.usdz"; sourceTree = "<group>"; };
+		3FB1F4EF2C5A4F4F00964B8A /* Tooth Brush.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = "Tooth Brush.usdz"; path = "../../SaveEarthApp!/SaveEarthApp!/Tooth Brush.usdz"; sourceTree = "<group>"; };
+		3FB1F4F02C5A4F4F00964B8A /* ARContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARContainerViewController.swift; path = "../../SaveEarthApp!/SaveEarthApp!/ARContainerViewController.swift"; sourceTree = "<group>"; };
+		3FB1F4F12C5A4F4F00964B8A /* SaveEarthApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SaveEarthApp.swift; path = "../../SaveEarthApp!/SaveEarthApp!/SaveEarthApp.swift"; sourceTree = "<group>"; };
+		3FB1F4F22C5A4F4F00964B8A /* ARContainerViewController+Objects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ARContainerViewController+Objects.swift"; path = "../../SaveEarthApp!/SaveEarthApp!/ARContainerViewController+Objects.swift"; sourceTree = "<group>"; };
+		3FB1F4F32C5A4F4F00964B8A /* EarthNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EarthNode.swift; path = "../../SaveEarthApp!/SaveEarthApp!/EarthNode.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB1F4AD2C5A4C8B00964B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB1F4A72C5A4C8B00964B8A = {
+			isa = PBXGroup;
+			children = (
+				3FB1F4B22C5A4C8B00964B8A /* SaveEarthApp */,
+				3FB1F4B12C5A4C8B00964B8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB1F4B12C5A4C8B00964B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1F4B02C5A4C8B00964B8A /* SaveEarthApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB1F4B22C5A4C8B00964B8A /* SaveEarthApp */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1F4F02C5A4F4F00964B8A /* ARContainerViewController.swift */,
+				3FB1F4E62C5A4F4F00964B8A /* ARContainerViewController+Coaching.swift */,
+				3FB1F4F22C5A4F4F00964B8A /* ARContainerViewController+Objects.swift */,
+				3FB1F4EE2C5A4F4F00964B8A /* Book1.usdz */,
+				3FB1F4ED2C5A4F4F00964B8A /* Computer.usdz */,
+				3FB1F4E92C5A4F4F00964B8A /* ContentView.swift */,
+				3FB1F4F32C5A4F4F00964B8A /* EarthNode.swift */,
+				3FB1F4EC2C5A4F4F00964B8A /* EarthView.swift */,
+				3FB1F4E72C5A4F4F00964B8A /* Plastic Bottle.usdz */,
+				3FB1F4F12C5A4F4F00964B8A /* SaveEarthApp.swift */,
+				3FB1F4E32C5A4F4F00964B8A /* Tissue Paper.usdz */,
+				3FB1F4EF2C5A4F4F00964B8A /* Tooth Brush.usdz */,
+				3FB1F4E42C5A4F4F00964B8A /* Towel.usdz */,
+				3FB1F4EA2C5A4F4F00964B8A /* VirtualObject.swift */,
+				3FB1F4EB2C5A4F4F00964B8A /* VirtualObject+Text.swift */,
+				3FB1F4B72C5A4C8C00964B8A /* Assets.xcassets */,
+				3FB1F4B92C5A4C8C00964B8A /* Preview Content */,
+			);
+			path = SaveEarthApp;
+			sourceTree = "<group>";
+		};
+		3FB1F4B92C5A4C8C00964B8A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1F4BA2C5A4C8C00964B8A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB1F4AF2C5A4C8B00964B8A /* SaveEarthApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB1F4BE2C5A4C8C00964B8A /* Build configuration list for PBXNativeTarget "SaveEarthApp" */;
+			buildPhases = (
+				3FB1F4AC2C5A4C8B00964B8A /* Sources */,
+				3FB1F4AD2C5A4C8B00964B8A /* Frameworks */,
+				3FB1F4AE2C5A4C8B00964B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaveEarthApp;
+			productName = SaveEarthApp;
+			productReference = 3FB1F4B02C5A4C8B00964B8A /* SaveEarthApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB1F4A82C5A4C8B00964B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3FB1F4AF2C5A4C8B00964B8A = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+				};
+			};
+			buildConfigurationList = 3FB1F4AB2C5A4C8B00964B8A /* Build configuration list for PBXProject "SaveEarthApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB1F4A72C5A4C8B00964B8A;
+			productRefGroup = 3FB1F4B12C5A4C8B00964B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB1F4AF2C5A4C8B00964B8A /* SaveEarthApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB1F4AE2C5A4C8B00964B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB1F4FF2C5A4F4F00964B8A /* Book1.usdz in Resources */,
+				3FB1F4FE2C5A4F4F00964B8A /* Computer.usdz in Resources */,
+				3FB1F5002C5A4F4F00964B8A /* Tooth Brush.usdz in Resources */,
+				3FB1F4BB2C5A4C8C00964B8A /* Preview Assets.xcassets in Resources */,
+				3FB1F4F52C5A4F4F00964B8A /* Towel.usdz in Resources */,
+				3FB1F4F42C5A4F4F00964B8A /* Tissue Paper.usdz in Resources */,
+				3FB1F4F82C5A4F4F00964B8A /* Plastic Bottle.usdz in Resources */,
+				3FB1F4B82C5A4C8C00964B8A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB1F4AC2C5A4C8B00964B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB1F4FA2C5A4F4F00964B8A /* ContentView.swift in Sources */,
+				3FB1F5012C5A4F4F00964B8A /* ARContainerViewController.swift in Sources */,
+				3FB1F4FD2C5A4F4F00964B8A /* EarthView.swift in Sources */,
+				3FB1F5022C5A4F4F00964B8A /* SaveEarthApp.swift in Sources */,
+				3FB1F5042C5A4F4F00964B8A /* EarthNode.swift in Sources */,
+				3FB1F5032C5A4F4F00964B8A /* ARContainerViewController+Objects.swift in Sources */,
+				3FB1F4FC2C5A4F4F00964B8A /* VirtualObject+Text.swift in Sources */,
+				3FB1F4F72C5A4F4F00964B8A /* ARContainerViewController+Coaching.swift in Sources */,
+				3FB1F4FB2C5A4F4F00964B8A /* VirtualObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FB1F4BC2C5A4C8C00964B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FB1F4BD2C5A4C8C00964B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB1F4BF2C5A4C8C00964B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SaveEarthApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9XA2AHBXQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SaveEarthApp;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application will use the camera for Augmented Reality.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amon.kizawa.SaveEarthApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FB1F4C02C5A4C8C00964B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SaveEarthApp/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9XA2AHBXQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SaveEarthApp;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application will use the camera for Augmented Reality.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amon.kizawa.SaveEarthApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB1F4AB2C5A4C8B00964B8A /* Build configuration list for PBXProject "SaveEarthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB1F4BC2C5A4C8C00964B8A /* Debug */,
+				3FB1F4BD2C5A4C8C00964B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB1F4BE2C5A4C8C00964B8A /* Build configuration list for PBXNativeTarget "SaveEarthApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB1F4BF2C5A4C8C00964B8A /* Debug */,
+				3FB1F4C02C5A4C8C00964B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB1F4A82C5A4C8B00964B8A /* Project object */;
+}
