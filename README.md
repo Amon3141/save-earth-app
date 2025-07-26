@@ -1,6 +1,31 @@
 # SaveEarthApp
 
-A simple AR-integrated iOS app for environmental conservation. A personal project from 2022.
+An interactive iOS app that combines environmental education with augmented reality (AR) to promote sustainable living habits.
+
+## Features
+
+- **Environmental Score Tracking**: Track your daily eco-friendly actions with a scoring system
+- **Interactive Earth Visualization**: Watch the Earth transform based on your environmental impact score
+- **AR Learning Experience**: Explore 3D models of everyday objects in augmented reality
+- **Educational Library**: Access resources about environmental conservation
+- **Action-Based Learning**: Choose from good and bad environmental actions to see their impact
+
+## How It Works
+
+The app tracks your environmental score (starting at 40) based on your daily choices:
+- **Good Actions**: Using public transport, reusable bags, paper straws, shorter showers, etc.
+- **Bad Actions**: Unnecessary car use, plastic bags, long showers, excessive energy use, etc.
+
+Your score affects the Earth's visual state - from healthy (green) to damaged (explosion animation).
+
+## Technical Details
+
+- Built with SwiftUI and ARKit
+- iOS 14.0+ compatible
+- Uses RealityKit for AR experiences
+- Includes 3D models for AR visualization (books, computers, plastic bottles, etc.)
+
+## Development Status
 
 It was previously on the App Store but is not available now as I'm not paying for the developer program anymore.
 
