@@ -18,7 +18,7 @@ Track your environmental score (starting at 40) and watch the Earth transform ba
 
 Your score affects the Earth's visual state - from healthy (green) to damaged (explosion).
 
-### leARn
+### LeARn
 Interactive AR space where you can place and explore 3D models of everyday objects in your real environment. Learn about their environmental impact through augmented reality experiences. Includes models like books, computers, plastic bottles, and more.
 
 ### Library
